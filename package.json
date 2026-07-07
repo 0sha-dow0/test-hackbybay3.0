@@ -1,0 +1,15 @@
+{
+  "name": "test-hackbybay3-0",
+  "version": "1.0.0",
+  "description": "Deliberately vulnerable Express CRUD API — a transplant target for DepCover (axios -> fetch). Educational security-testing target only.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test.js",
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "0.21.1"
+  }
+}
