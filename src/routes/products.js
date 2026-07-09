@@ -1,5 +1,4 @@
 const express = require('express');
-const axios = require('axios');
 const { getJson, postJson } = require('../clients/upstream');
 const { checkStock, fetchFromSource } = require('../services/inventory');
 
